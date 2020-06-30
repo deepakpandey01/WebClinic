@@ -1,14 +1,84 @@
-.media{
-    margin-left: 10%;
-}
-.button{
+
+.feat{
+    margin-top: 3%;
     align-self: center;
-}
-.content{
-    margin-left:35%;
     
 }
-.social-agileinfo{
-    width: auto;
-    height: auto;
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      
+      /* Style the icon bar links */
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+      
+      /* Style the social media icons with color, if you want */
+      .icon-bar a:hover {
+        background-color: #000;
+      }
+      
+      .facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+      .youtube {
+        background: #bb0000;
+        color: white;
+      }
+      body, html {
+        height: 100%;
+      }
+      .bg {
+        /* The image used */
+        background-image: url("bg.jpg");
+      
+        /* Full height */
+        height: 100%;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+.mapscript{
+    height:100%;
 }
